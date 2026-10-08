@@ -11,6 +11,12 @@ export default function LoggedOut() {
           <h1 className="text-display-3">KindeAuth</h1>
           <div>
             <LoginLink className="btn btn-ghost sign-in-btn">Sign in</LoginLink>
+            <LoginLink
+              orgCode="org_174e503465ab"
+              className="btn btn-ghost sign-in-btn"
+            >
+              Org Sign in
+            </LoginLink>
             <RegisterLink className="btn btn-dark">Sign up</RegisterLink>
           </div>
         </nav>
